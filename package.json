@@ -8,15 +8,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "2.17.0",
+    "braintree": "^3.2.1",
+    "braintree-web": "^3.73.1",
+    "braintree-web-drop-in": "^1.26.1",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "superjson": "^1.7.2"
   },
   "devDependencies": {
+    "@types/braintree": "^2.22.9",
+    "@types/braintree-web": "^3.69.3",
+    "@types/braintree-web-drop-in": "^1.22.3",
     "@types/node": "^14.14.31",
     "@types/react": "^17.0.2",
-    "prisma": "^2.17.0",
+    "babel-plugin-superjson-next": "^0.2.3",
+    "prisma": "2.17.0",
     "typescript": "^4.2.2"
   }
 }
